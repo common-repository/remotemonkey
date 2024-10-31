@@ -1,0 +1,26 @@
+{
+    "name": "backupmonkey/remotemonkey-wordpress",
+    "description": "The Joomla connector for backupmonkey.io",
+    "keywords": ["joomla", "backupmonkey"],
+    "license": "GPLv3",
+    "type": "project",
+    "authors": [
+        {
+            "name": "BackupMonkey Team",
+            "email": "team@backupmonkey.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "require-dev": {
+        "phpmd/phpmd" : "@stable",
+        "sebastian/phpcpd": "*",
+        "squizlabs/php_codesniffer": "2.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Remotemonkey\\": "src/Remotemonkey"
+        }
+    }
+}
